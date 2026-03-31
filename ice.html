@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Card Menu</title>
+
+<style>
+    body {
+        font-family: cursive;
+        background: #f4f4f4;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+        background: #ff5722;
+        color: white;
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .card {
+        background: white;
+        width: 250px;
+        margin: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+        object-fit: ;
+    }
+
+    .card-body {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .card-body h3 {
+        margin: 10px 0;
+    }
+
+    .price {
+        color: #e64a19;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 8px 15px;
+        border: none;
+        background: #ff5722;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #e64a19;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>IceCream</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="qzs97r0cymkb1.jpg" alt="Burger">
+        <div class="card-body">
+            <h3>Put Iceram</h3>
+            <p class="price">₹200</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="tender.jpg" alt="Mandhi">
+        <div class="card-body">
+            <h3>Tender coconut Iceram </h3>
+            <p class="price">₹180</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="san.avif" alt="Fries">
+        <div class="card-body">
+            <h3>Sandwich IceCream</h3>
+            <p class="price">₹150</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Red Velvet Ice Cream Recipe_ Your New Favorite Flavor.jpg" alt="meal">
+        <div class="card-body">
+            <h3>Red Velvet IceCream</h3>
+            <p class="price">₹200</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
